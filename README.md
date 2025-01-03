@@ -41,7 +41,7 @@ This project implements a system for generating interpretable radiology reports 
 
 Set up environment variables in `.env` file:
    ```plaintext
-   OPENAI_API_KEY
+   OPENAI_API_KEY=
    MISTRAL_API_KEY=
    ```
 
