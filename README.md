@@ -1,6 +1,11 @@
 # Demonstrating Enhanced Interpretability in Radiology Report Generation with Multi-Agent RAG and Concept Bottleneck Models
 
+
+
 ## Overview
+This is the official repository for the paper titled **'CBM-RAG: Demonstrating Enhanced Interpretability in Radiology Report Generation with Multi-Agent RAG and Concept Bottleneck Models'**, accepted in the **17th ACM SIGCHI Symposium on Engineering Interactive Computing Systems (EICS 2025)**
+
+- preprint: https://arxiv.org/abs/2504.20898
 
 This project implements a system for generating interpretable radiology reports using a combination of Multi-Agent Retrieval-Augmented Generation (RAG) and Concept Bottleneck Models (CBM). The application focuses on chest X-ray (CXR) analysis and classification into three categories: Pneumonia, COVID-19, and Normal, providing concept-level interpretability and heatmaps for enhanced understanding of classification results.
 
@@ -79,6 +84,17 @@ streamlit run app.py
 - **`rag.py`**: Implements the multi-agent RAG system for report generation.
 - **`utils.py`**: Utility functions for file simulation and transcription.
 - **`config.py`**: Configuration settings for the classification model.
+
+## Citation
+If you are using the code or the results in your research, please cite"
+```
+@article{alam2025cbm,
+  title={CBM-RAG: Demonstrating Enhanced Interpretability in Radiology Report Generation with Multi-Agent RAG and Concept Bottleneck Models},
+  author={Alam, Hasan Md Tusfiqur and Srivastav, Devansh and Selim, Abdulrahman Mohamed and Kadir, Md Abdul and Shuvo, Md Moktadiurl Hoque and Sonntag, Daniel},
+  journal={arXiv preprint arXiv:2504.20898},
+  year={2025}
+}
+```
 
 ## Acknowledgements
 
